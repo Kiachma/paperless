@@ -15,7 +15,6 @@ services:
             # You have to adapt the local path you want the consumption
             # directory to mount to by modifying the part before the ':'.
             - ./consume:/consume
-        env_file: docker-compose.env
         # The reason the line is here is so that the webserver that doesn't do
         # any text recognition and doesn't have to install unnecessary
         # languages the user might have set in the env-file by overwriting the
